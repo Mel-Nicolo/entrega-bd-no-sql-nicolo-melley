@@ -9,7 +9,7 @@ Este repositorio contiene el proyecto de procesamiento, modelado y carga de dato
 Basado en la organización del espacio de trabajo:
 
 * **`data/`**: Gestión de los conjuntos de datos.
-    * `raw/`: Archivos originales (CSV y JSON).
+    * `raw/`: Archivos originales (CSV y JSON) comprimidos, para una correcta ejecución hay que descomprimirlos.
     * `cleaned/`: CSVs procesados listos para el modelado.
     * `output/`: Archivos `.jsonl` finales generados para la carga masiva.
 * **`notebooks/`**: Organización por fases de desarrollo.

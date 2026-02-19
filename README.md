@@ -49,7 +49,7 @@ Desde la raíz del proyecto, crea y activa un entorno virtual para aislar las de
 python -m venv venv
 
 # Activar el entorno
-.\venv\Scripts\Activate.ps1
+venv\Scripts\activate
 ```
 
 #### **Linux / macOS (Bash)**
@@ -69,7 +69,7 @@ Con el entorno activado, instala las librerías necesarias:
 python -m pip install --upgrade pip
 
 # Instalar dependencias del proyecto
-pip install -r requirements.txt
+pip install -r .\entrega-bd-no-sql-nicolo-melley-master\requirements.txt
 ```
 
 ### 3. Verificar Instalación

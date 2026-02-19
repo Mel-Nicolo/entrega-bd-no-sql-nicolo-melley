@@ -1,0 +1,12 @@
+pandas>=1.5
+numpy>=1.23
+pymongo>=4.0
+jupyterlab>=3.0
+json
+pprint
+pathlib
+datetime
+re
+nbformat
+ipykernel
+python-dateutil
